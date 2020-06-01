@@ -277,4 +277,8 @@ body{
   .ml2 {
     margin: 0;
   }
+
+  .main {
+    max-height: 85vh;
+  }
 }
