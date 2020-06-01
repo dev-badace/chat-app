@@ -279,11 +279,10 @@ body{
   }
 
   .main {
-    height: 91.5vh;
+    height: 100vh;
   }
 
   body {
     overflow: hidden;
-    height: 91.5vh;
   }
 }
