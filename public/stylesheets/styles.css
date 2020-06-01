@@ -279,6 +279,10 @@ body{
   }
 
   .main {
-    max-height: 85vh;
+    height: 100vh;
+  }
+
+  body {
+    overflow: hidden;
   }
 }
