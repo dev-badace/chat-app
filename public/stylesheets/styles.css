@@ -236,3 +236,45 @@ body{
 .ml2{
   margin-left: 2rem;
 }
+
+
+@media (max-width : 500px) {
+  
+ 
+  .modal-content{
+    padding: 2.5rem;
+    width: 75%;
+    background-color: #f7f7fa;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .sidebar{
+    display: none;
+    flex-shrink: 0;
+    background-color: rgb(124, 139, 152);
+    border-right: 1px solid rgb(113, 112, 112);
+    margin-right: 1.5rem;
+  }
+  
+  .input{
+    margin: 0;
+    flex-direction: column;
+  }
+   
+  .form {
+    flex-direction: column;
+  }
+
+  .form input {
+    width: 100%;
+  }
+
+  .btn {
+    border-bottom: 1px solid #ccc;
+  }
+  .ml2 {
+    margin: 0;
+  }
+}
